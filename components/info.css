@@ -1,0 +1,176 @@
+.info-page {
+  padding-top: 100px;
+
+  margin: auto;
+  width: fit-content;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.background-info {
+  background-color: #107a3c;
+}
+
+.personal-step {
+  color: white;
+
+  margin: 0px 20px 54px 20px;
+
+  display: flex;
+  align-items: center;
+}
+
+.step {
+  background-color: rgb(189, 181, 181);
+  color: black;
+
+  width: 32px;
+  height: 32px;
+  font-size: 14px;
+
+  border-radius: 50%;
+
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.step.active {
+  background-color: white;
+  color: black;
+
+  width: 32px;
+  height: 32px;
+
+  font-weight: bold;
+  font-size: 16px;
+
+  border-radius: 50%;
+
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.step::after {
+  content: "";
+
+  background-color: white;
+  opacity: 0.33;
+
+  height: 32px;
+  width: 2px;
+
+  bottom: -42px;
+  left: 50%;
+
+  position: absolute;
+}
+
+.step-txt.txt-active {
+  padding: 0 200px 0 31px;
+
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.step-txt {
+  padding-left: 31px;
+
+  font-size: 16px;
+}
+
+.pay {
+  padding-top: 30px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.payment-header {
+  padding-bottom: 20px;
+
+  margin: 0 65px 0 20px;
+  font-size: 22px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.split {
+  display: flex;
+  align-items: center;
+}
+
+.input-group > input {
+  outline: none;
+  border: 1px solid black;
+}
+
+.input-group {
+  background-color: rgb(163, 156, 156);
+
+  width: 250px;
+  max-width: 525px;
+
+  padding: 15px 15px 15px 15px;
+  margin-left: 25px;
+
+  font-size: 15px;
+  border: solid 1px #ffff;
+  border-radius: 5px 5px 0px 0px;
+  border-bottom: 4px solid gray;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group.active {
+  color: #0e4da4;
+  background-color: rgba(77, 184, 255, 0.5);
+
+  width: 250px;
+  font-size: 15px;
+
+  border: solid 1px #ffff;
+  border-radius: 5px 5px 0px 0px;
+  border-bottom: 4px solid blue;
+
+  margin-left: 25px;
+  padding: 15px 15px 15px 15px;
+}
+
+.input-group.block {
+  width: 100%;
+}
+
+.btn-check {
+  padding-left: 25px;
+}
+
+.check {
+  color: #0e4da4;
+  background-color: rgb(163, 156, 156);
+
+  width: 100%;
+
+  padding: 15px 0 15px 0;
+
+  border: 1px solid gray;
+  border-radius: 10px;
+
+  cursor: pointer;
+  outline: none;
+}
+
+.check:active {
+  background-color: rgba(77, 184, 255, 0.5);
+}

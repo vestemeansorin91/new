@@ -1,0 +1,69 @@
+.rectangle-align {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.rectangle-center {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.rectangle {
+  width: 168px;
+  height: 168px;
+
+  border: solid 1px #979797;
+  border-radius: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rectangle.white {
+  color: black;
+  background-color: white;
+}
+
+.rectangle.black {
+  color: white;
+  background-color: black;
+}
+
+.rectangle.red {
+  color: white;
+  background-color: red;
+}
+
+.rectangle.blue {
+  color: white;
+  background-color: blue;
+}
+
+.rectangle.green {
+  color: white;
+  background-color: green;
+}
+
+.rectangle.orange {
+  color: white;
+  background-color: orange;
+}
+
+.rectangle.pink {
+  color: white;
+  background-color: #d64470;
+}
+
+.rectangle.brown {
+  color: white;
+  background-color: #3f3c3c;
+}
+
+.rectangle.noncolor {
+  color: black;
+  background-color: #f0f0f0;
+}

@@ -1,0 +1,137 @@
+.bars {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.header-bars-design {
+  padding: 18px 20px;
+  width: 360px;
+
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.01), 0px 4px 8px rgba(0, 0, 0, 0.02),
+    0px 1px 12px rgba(0, 0, 0, 0.12);
+  border-radius: 0px 0px 8px 8px;
+  border: solid 1px #ffffff;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.select-bar--items {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 1;
+  gap: 35px;
+}
+
+.select-bar--items.white {
+  color: white;
+
+  margin-right: 20px;
+}
+
+.header-bars-design > i:first-child {
+  margin-right: 35px;
+}
+
+.bars-header-desing > i {
+  color: var(--color--headertext);
+}
+
+.footer-bars-design > i {
+  color: white;
+}
+
+.bars-footer {
+  padding-top: 68px;
+}
+.footer-bars-design {
+  padding: 18px 0;
+  width: 360px;
+
+  border-radius: 8px 8px 0px 0px;
+  border: solid 1px #ffffff;
+
+  position: relative;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.view-bar {
+  background-color: #0e4da4;
+}
+
+.bars-margin {
+  margin-left: 20px;
+}
+
+.icon-add {
+  background-color: #263238;
+  color: white;
+
+  right: 150px;
+  bottom: 25px;
+  padding: 21px;
+
+  border-radius: 24px;
+
+  position: absolute;
+}
+
+.nav {
+  background-color: #f0f0f0;
+
+  padding: 4px;
+
+  border-radius: 8px 8px 0px 0px;
+  border: solid 1px #ffffff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-button {
+  color: grey;
+
+  width: 112px;
+  padding: 8px 0;
+
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-button:first-of-type {
+  margin-right: 4px;
+}
+
+.nav-button:last-of-type {
+  margin-left: 4px;
+}
+
+.nav.black {
+  background-color: #263238;
+}
+
+.nav.blue {
+  background-color: #0e4da4;
+}
+
+.nav > .nav-button.active {
+  color: black;
+}
+.nav.black > .nav-button.active {
+  color: white;
+  background-color: grey;
+}
+.nav.blue > .nav-button.active {
+  color: white;
+}

@@ -1,0 +1,87 @@
+.form-controls {
+  margin: auto;
+  width: fit-content;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-header {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+
+.user {
+  padding-bottom: 50px;
+
+  position: relative;
+}
+
+label.info-text {
+  background-color: white;
+
+  top: -10px;
+  left: 15px;
+
+  padding: 2px;
+
+  position: absolute;
+  z-index: 2;
+}
+
+input.form-input {
+  padding: 10px;
+  border-radius: 8px;
+
+  border: 1px solid #263238;
+}
+
+input.form-input.active {
+  border: 1px solid #1bb55c;
+}
+
+.account {
+  padding-bottom: 30px;
+
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.account > i {
+  font-size: 32px;
+}
+
+.account.add {
+  color: #1bb55c;
+}
+
+.checkbox-control {
+  display: flex;
+  flex-direction: row;
+  gap: 160px;
+}
+
+.checkbox-control-left {
+  padding-top: 50px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.checkbox-control-right {
+  padding-top: 50px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.checkbox-asign {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}

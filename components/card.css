@@ -1,0 +1,251 @@
+.cards {
+  margin: auto;
+  width: fit-content;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-container {
+  padding-bottom: 50px;
+
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.card-container-cat {
+  max-width: 340px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.txt-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.header-card {
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+
+.content-card {
+  color: var(--color--headertext);
+}
+
+.info-card {
+  color: var(--color--headertext);
+
+  padding-bottom: 30px;
+}
+
+.card-container-cat > img {
+  width: 96px;
+  height: 96px;
+}
+
+.card-container-ology {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-container-grid {
+  position: relative;
+}
+
+.card-container-grid > i {
+  color: white;
+
+  top: 10px;
+  right: 10px;
+
+  font-size: 25px;
+
+  position: absolute;
+}
+
+.card-container-grid > .header-card {
+  color: white;
+
+  bottom: 120px;
+  left: 10px;
+
+  position: absolute;
+}
+
+.card-container-grid > .info-card {
+  color: white;
+
+  bottom: 75px;
+  left: 10px;
+
+  position: absolute;
+}
+
+.info-container {
+  padding-bottom: 100px;
+
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+
+.card-layouts {
+  width: 330px;
+}
+
+.card-btn {
+  color: #0e4da4;
+  border: 1px solid #0e4da4;
+
+  padding: 12px;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+}
+
+.card-btn:active {
+  background-color: red;
+}
+
+.card-profil-details {
+  display: flex;
+  flex-direction: row;
+}
+
+.section-profil {
+  width: 315px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.details-profil {
+  width: 330px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.img-details {
+  font-size: 20px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.img-position {
+  padding-bottom: 15px;
+
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.img-position > img {
+  height: 40px;
+  width: 40px;
+}
+
+.star-rate {
+  padding-bottom: 15px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.star-rate > i {
+  color: #1bb55c;
+}
+
+.star-rate > i:nth-child(4) {
+  color: #979797;
+}
+
+.star-rate > i:nth-child(5) {
+  color: #979797;
+}
+
+.star-rate > .day-ago {
+  padding-left: 10px;
+
+  font-size: 15px;
+}
+
+.review {
+  font-size: 32px;
+
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.review > .la-thumbs-up {
+  color: #0e4da4;
+}
+
+.variant-container {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+
+.variant-card-blue {
+  width: 350px;
+
+  padding: 15px;
+
+  border-radius: 8px;
+
+  background-color: #0e4da4;
+}
+
+.header-card.white {
+  color: white;
+}
+
+.card-btn.white {
+  color: white;
+  background-color: #0e4da4;
+  border: 1px solid white;
+}
+
+.card-btn.white:active {
+  background-color: red;
+}
+
+.variant-card-black {
+  width: 350px;
+
+  padding: 15px;
+
+  border-radius: 8px;
+
+  background-color: #263238;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.variant-txt {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-btn.black {
+  width: 80px;
+
+  color: white;
+  background-color: #263238;
+  border: 1px solid white;
+}
+
+.card-btn.black:active {
+  background-color: red;
+}

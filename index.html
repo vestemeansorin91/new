@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="./components/typography.css">
+  <link rel="stylesheet" href="./components/colors.css">
+  <link rel="stylesheet" href="./components/bars.css">
+  <link rel="stylesheet" href="./components/product.css">
+  <link rel="stylesheet" href="./components/buttons.css">
+  <link rel="stylesheet" href="./components/info.css">
+  <link rel="stylesheet" href="/components/checkbox.css">
+  <link rel="stylesheet" href="components/colors.css">
+  <link rel="stylesheet" href="components/control.css">
+  <link rel="stylesheet" href="components/card.css">
+  <link rel="stylesheet" href="/components/menu.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+</head>
+
+<body>
+
+  <div class="typography-page">
+    <div class="header">Typography</div>
+    <h1 class="typography-text">H1 Head</h1>
+    <h2 class="typography-text">H2 Headline</h2>
+    <h3 class="typography-text">H3 Headline</h3>
+    <h4 class="typography-text">H4 Headline</h4>
+    <h5 class="typography-text">H5 Headline</h5>
+    <h6 class="typography-text">H6 Headline</h6>
+
+    <span class="typography-text">Body 1</span>
+    <span class="typography-text">Subtitle 2</span>
+    <span class="typography-text">BUTTON</span>
+    <span class="typography-text">Body 2</span>
+  </div>
+
+  <div class="colors-page">
+    <div class="header align">Colors</div>
+    <div class="rectangle-align">
+
+      <div class="rectangle-center">
+        <div class="rectangle white">Background</div>
+        <div class="rectangle black">Main</div>
+        <div class="rectangle red">Accent | Error</div>
+      </div>
+
+      <div class="rectangle-center">
+        <div class="rectangle blue">Primary</div>
+        <div class="rectangle green">Secondary</div>
+        <div class="rectangle orange">Tretiary</div>
+      </div>
+
+      <div class="rectangle-center">
+        <div class="rectangle pink">Gradient</div>
+        <div class="rectangle brown">Icon</div>
+        <div class="rectangle noncolor">Zajebiste Sdelano!</div>
+      </div>
+    </div>
+  </div>
+  <section class="bars-page">
+    <div>
+      <div class="header align">Application bars</div>
+      <div class="bars bars-header">
+
+        <div class="food-bar header-bars-design">
+          <i class="las la-bars "></i>
+          <span>Hamburger</span>
+          <div class="select-bar--items">
+            <i class="las la-search "></i>
+            <i class="las la-bell "></i>
+            <i class="las la-ellipsis-v"></i>
+          </div>
+
+        </div>
+
+        <div class="back-bar header-bars-design">
+          <i class="las la-arrow-left "></i>
+          <span>Back to the roots</span>
+          <div class="select-bar--items">
+            <i class="las la-search "></i>
+            <i class="las la-ellipsis-v"></i>
+          </div>
+
+        </div>
+
+        <div class="select-bar header-bars-design">
+          <i class="las la-times "></i>
+          <span>3 selected</span>
+          <div class="select-bar--items">
+            <i class="las la-share-alt-square"></i>
+            <i class="las la-trash-alt "></i>
+            <i class="las la-ellipsis-v"></i>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="bars bars-footer">
+        <div class="view-bar footer-bars-design">
+          <span class="icon-add"><i class="las la-plus"></i></span>
+          <i class="las la-bars bars-margin"></i>
+          <div class="select-bar--items white">
+            <i class="las la-search"></i>
+            <i class="las la-ellipsis-v "></i>
+
+          </div>
+        </div>
+
+        <div class="nav black">
+          <div class="nav-button active ">
+            <i class="las la-home"></i>
+            <span>Dashboard</span>
+          </div>
+
+          <div class="nav-button  ">
+            <i class="las la-book"></i>
+            <span>Bookmarked</span>
+          </div>
+
+          <div class="nav-button ">
+            <i class="las la-heart"></i>
+            <span>Wishlist</span>
+          </div>
+        </div>
+
+        <div class="nav blue">
+          <div class="nav-button">
+            <i class="las la-home"></i>
+            <span>Dashboard</span>
+          </div>
+
+          <div class="nav-button active">
+            <i class="las la-book"></i>
+            <span>Bookmarked</span>
+          </div>
+
+          <div class="nav-button">
+            <i class="las la-heart"></i>
+            <span>Wishlist</span>
+          </div>
+        </div>
+
+        <div class="nav">
+          <div class="nav-button active">
+            <i class="las la-home"></i>
+            <span>Dashboard</span>
+          </div>
+
+          <div class="nav-button">
+            <i class="las la-book"></i>
+            <span>Bookmarked</span>
+          </div>
+
+          <div class="nav-button ">
+            <i class="las la-heart"></i>
+            <span>Wishlist</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="product-page">
+    <div class="header-right header">
+      <span class="details">Setproduct</span>
+      <div class="details-icon">
+        <i class="las la-square"></i>
+        <i class="las la-caret-down"></i>
+        <i class="las la-circle"></i>
+      </div>
+
+    </div>
+    <div class="header-latest">
+      <i class="las la-arrow-left"></i>
+      <span> Latest news </span>
+    </div>
+
+    <div class="time-ago">2 hours ago</div>
+
+    <div class="product-info">
+      <div class="txt">Google material design two looks promising</div>
+      <div class="desing-txt txt">When the top app bar scrolls, its elevation above other elements becomes
+        apparent.
+        The top app bar disappears
+        upon
+        scrolling up, and appears upon scrolling down.</div>
+
+
+      <div class="time-ago">3 hours ago</div>
+
+      <div class="txt">Setproduct predicting 2048 design trends</div>
+      <div class="desing-txt txt">The top app bar disappears upon scrolling up, and appears upon scrolling down.</div>
+
+      <div class="time-ago">8 hours ago</div>
+
+      <div class="txt">USSR tech startups rebound</div>
+      <div class="desing-txt txt">When the top app bar scrolls, its elevation above other elements becomes apparent. The
+        top app bar disappears upon scrolling up, and appears upon scrolling down.</div>
+    </div>
+
+    <div class="footer-bar">
+      <div class="bar-design">
+        <span class="bookmark"><i class="las la-bookmark"></i></span>
+        <i class="las la-search"></i>
+        <i class="las la-shopping-cart"></i>
+        <i class="las la-bell"></i>
+        <i class="las la-cog"></i>
+      </div>
+    </div>
+  </div>
+
+  <div class="info-page">
+    <div class="background-info">
+      <div class="header-right header">
+        <span class="details">Crafting</span>
+        <div class="details-icon">
+          <i class="las la-square"></i>
+          <i class="las la-caret-down"></i>
+          <i class="las la-circle"></i>
+        </div>
+      </div>
+
+      <div class="personal-step">
+        <span class="step active">1</span>
+        <span class="step-txt txt-active">Personal information</span>
+        <i class="las la-angle-up"></i>
+      </div>
+
+      <div class="personal-step">
+        <span class="step">2</span>
+        <span class="step-txt">Delivery options</span>
+      </div>
+
+      <div class="personal-step">
+        <span class="step">3</span>
+        <span class="step-txt">Payment information</span>
+      </div>
+
+      <div class="personal-step">
+        <span class="step">4</span>
+        <span class="step-txt">Check and confirm</span>
+      </div>
+
+    </div>
+    <div class="pay">
+      <div class="payment-header">Payment information
+        <i class="las la-caret-down"></i>
+      </div>
+
+      <div class="split">
+        <div class="input-group active">
+          <label for="firstName">First Name</label>
+          <input id="firstName" type="text" placeholder="First Name">
+        </div>
+
+        <div class="input-group">
+          <label for="lastName">Last Name</label>
+          <input id="lastName" type="text" placeholder="Last Name">
+        </div>
+      </div>
+
+      <div class="input-group block">
+        <label for="phone">Phone</label>
+        <input id="phone" type="number" placeholder="Phone number">
+      </div>
+
+      <div class="input-group block">
+        <label for="street">Street</label>
+        <input id="street" type="text" placeholder="Street">
+      </div>
+
+      <div class="split">
+        <div class="input-group adress">
+          <label for="city">City</label>
+          <input id="city" type="text" placeholder="City">
+        </div>
+
+        <div class="input-group adress">
+          <label for="zip">Zip</label>
+          <input id="zip" type="number" placeholder="Zip">
+        </div>
+      </div>
+
+      <div class="btn-check">
+        <button class="check">Proceed to Checkout</button>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="checkbox">
+    <div class="header-right header">
+      <span class="details">Pixels</span>
+      <div class="details-icon">
+        <i class="las la-square"></i>
+        <i class="las la-caret-down"></i>
+        <i class="las la-circle"></i>
+      </div>
+    </div>
+
+    <div class="header color-txt">Checkbox me</div>
+
+    <div class="checkbox-container">
+      <div class="container active-check">
+        <input id="snart-tv" type="checkbox">
+        <label for="snart-tv">Snart TV</label>
+      </div>
+
+      <div class="container ">
+        <input id="ultra-hd" type="checkbox">
+        <label for="ultra-hd">4K Ultra HD TVs</label>
+      </div>
+
+      <div class="container active-check">
+        <input id="curved-tv" type="checkbox">
+        <label for="curved-tv">Curved TVs</label>
+      </div>
+
+      <div class="container active-check">
+        <input id="oled-tv" type="checkbox">
+        <label for="oled-tv">OLED TVs</label>
+      </div>
+
+      <div class="container">
+        <input id="led-tv" type="checkbox">
+        <label for="led-tv">LED TVs</label>
+      </div>
+
+      <div class="container">
+        <input id="home-systems" type="checkbox">
+        <label for="home-systems">Home Theater Systems</label>
+      </div>
+    </div>
+
+    <div class="header color-txt">Radio’s here</div>
+    <div class="checkbox-container-custom">
+      <div class="container active-check orange">
+        <input id="tv-32" type="radio">
+        <label for="tv-32">TVs up to 32”</label>
+      </div>
+
+      <div class="container">
+        <input id="tv-39" type="radio">
+        <label for="tv-39">TVs 39”-50”</label>
+      </div>
+
+      <div class="container">
+        <input id="tv-55" type="radio">
+        <label for="tv-55">TVs 55” or lager</label>
+      </div>
+    </div>
+
+    <div class="show-me-footer">
+      <span class="show-me">Show me<strong> 64 results</strong></span>
+      <span><i class="las la-eye"></i></span>
+    </div>
+  </div>
+
+
+  <div class="buttons">
+    <div class="header align">Buttons</div>
+
+    <div class="plus-btn">
+      <button class="btn-plus-custom white"><i class="las la-plus"></i></button>
+      <button class="btn-plus-custom blue"><i class="las la-plus"></i></button>
+      <button class="btn-plus-custom green"><i class="las la-plus"></i></button>
+      <button class="btn-plus-custom black"><i class="las la-plus"></i></button>
+    </div>
+
+    <div class="border-pen">
+      <button class="pen-color gray"><i class="las la-pen"></i></button>
+      <button class="pen-color blue"><i class="las la-pen"></i></button>
+      <button class="pen-color red"><i class="las la-pen"></i></button>
+      <button class="pen-color green"><i class="las la-pen"></i></button>
+    </div>
+
+    <div class="background-pan">
+      <button class="pen-color background-gray"><i class="las la-pen"></i></button>
+      <button class="pen-color background-blue"><i class="las la-pen"></i></button>
+      <button class="pen-color background-red"><i class="las la-pen"></i></button>
+      <button class="pen-color background-green"><i class="las la-pen"></i></button>
+    </div>
+
+    <div class="container-btn-footer">
+      <button class="container-btn back-container">
+        <i class="las la-arrow-left"></i> Container Button</button>
+      <button class=" container-btn right-container">
+        <i class="las la-arrow-right"></i> Container Button</button>
+    </div>
+  </div>
+
+  <div class="form-controls">
+
+    <div class="header align">Form controls</div>
+
+    <div class="form-header">
+      <div class="form-user">
+        <div class="user">
+          <label class="info-text" for="text-input">Username</label>
+          <input id="text-input" type="text" class="form-input active" placeholder="Superdesigner">
+        </div>
+
+        <div class="user">
+          <label class="info-text" for="text-input">E-mail</label>
+          <input id="text-input" type="email" class="form-input active" placeholder="e.g. john@gmail.com">
+        </div>
+
+        <div class="user">
+          <label class="info-text" for="text-input">Password</label>
+          <input id="text-input" type="password" class="form-input active" placeholder="At least 8 symbols...">
+        </div>
+
+        <div class="user">
+          <label class="info-text" for="text-input">Phone number</label>
+          <input id="text-input" type="number" class="form-input active" placeholder="+7 (· · · ) · · · · · · ·">
+        </div>
+      </div>
+
+      <div class="form-contact">
+
+        <div class="account">
+          <i class="las la-user-circle"></i>
+          <span>John Smith</span>
+        </div>
+
+        <div class="account">
+          <i class="las la-user-circle"></i>
+          <span>Michael Norton</span>
+        </div>
+
+        <div class="account">
+          <i class="las la-user-circle"></i>
+          <span>Harry Stapleton</span>
+        </div>
+
+        <div class="account">
+          <i class="las la-user-circle"></i>
+          <span>Mary Green</span>
+        </div>
+
+        <div class="account">
+          <i class="las la-user-circle"></i>
+          <span>Dmitry Novitsky</span>
+        </div>
+
+        <div class="account add">
+          <i class="las la-plus-circle"></i>
+          <span>Add account</span>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div class="checkbox-control">
+      <div class="checkbox-control-left">
+
+        <div class="checkbox-asign">
+          <input id="none" type="checkbox">
+          <label for="none">None</label>
+        </div>
+
+        <div class="checkbox-asign">
+          <input id="forums" type="checkbox">
+          <label for="forums">Forums</label>
+        </div>
+
+        <div class="checkbox-asign">
+          <input id="social" type="checkbox">
+          <label for="social">Social</label>
+        </div>
+
+        <div class="checkbox-asign">
+          <input id="updates" type="checkbox">
+          <label for="updates">Updates</label>
+        </div>
+
+        <div class="checkbox-asign">
+          <input id="promotions" type="checkbox">
+          <label for="promotions">Promotions</label>
+        </div>
+
+        <div class="checkbox-asign">
+          <input id="spam" type="checkbox">
+          <label for="spam">Spam</label>
+        </div>
+
+      </div>
+
+      <div class="checkbox-control-right">
+
+        <div class="checkbox-asign">
+          <input id="none" type="radio">
+          <label for="none">None</label>
+        </div>
+
+        <div class="checkbox-asign">
+          <input id="calisto" type="radio">
+          <label for="calisto">Calisto</label>
+        </div>
+
+        <div class="checkbox-asign">
+          <input id="ganymede" type="radio">
+          <label for="ganymede">Ganymede</label>
+        </div>
+
+        <div class="checkbox-asign">
+          <input id="luna" type="radio">
+          <label for="luna">Luna</label>
+        </div>
+
+        <div class="checkbox-asign">
+          <input id="obreon" type="radio">
+          <label for="obreon">Oberon</label>
+        </div>
+
+        <div class="checkbox-asign">
+          <input id="phobos" type="radio">
+          <label for="phobos">Phobos</label>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="cards">
+
+    <div class="header align">Cards</div>
+
+    <div class="card-container">
+      <div class="card-container-cat">
+        <div class="txt-card">
+          <div class="header-card">The card container</div>
+          <div class="content-card">Corned beef prosciutto ground bacon...</div>
+          <div class="info-card">10 min</div>
+        </div>
+        <img src="/image/cat.png">
+      </div>
+
+      <div class="card-container-ology">
+        <img src="/image/ology.png">
+        <div class="header-card">Ology</div>
+        <div class="info-card">Galant</div>
+      </div>
+
+      <div class="card-container-grid">
+        <img src="/image/grid.png" alt="">
+        <i class="las la-ellipsis-v"></i>
+        <div class="header-card">Card title here</div>
+        <div class="info-card">Subcaption</div>
+      </div>
+    </div>
+
+    <div class="info-container">
+
+      <div class="card-layouts">
+        <div class="header-card">Light variant</div>
+        <div class="info-card">Card layouts can vary to support the types of content they contain. The followingelements
+          are commonly found among that variety.</div>
+        <button class="card-btn">Purchase</button>
+      </div>
+
+      <div class="card-profil-details">
+
+        <div class="section-profil">
+          <div class="details-profil">
+            <div class="img-position">
+              <img src="/image/profil.png" alt="">
+              <div class="img-details">
+                <div>Joe Stockton</div>
+                <div>133 reviews</div>
+              </div>
+            </div>
+
+            <div class="star-rate">
+              <i class="las la-star"></i>
+              <i class="las la-star"></i>
+              <i class="las la-star"></i>
+              <i class="las la-star-half-alt"></i>
+              <i class="las la-star-half-alt"></i>
+              <div class="day-ago">3 days ago</div>
+            </div>
+          </div>
+
+          <div>Text labels need to be distinct from other elements. If the text label isn’t capitalized, it should use a
+            different color, style, or layout from other text. </div>
+
+
+        </div>
+        <div class="review">
+          <i class="las la-thumbs-down"></i>
+          <i class="las la-thumbs-up"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="variant-container">
+
+      <div class="variant-card-blue">
+
+        <div class="header-card white">Dark variant</div>
+        <div class="info-card">Card layouts can vary to support the types of content they contain. The following
+          elements are commonly found among that variety.</div>
+        <button class="card-btn white">Buy Now</button>
+
+      </div>
+
+      <div class="variant-card-black">
+
+
+        <div class="variant-txt">
+          <div class="header-card white">We love pixels</div>
+          <div class="info-card">The card layouts can vary to support the types of content they contain.</div>
+          <button class="card-btn black">License</button>
+        </div>
+
+
+        <div><img src="/image/pixels.png" alt=""></div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <div class="menu">
+
+    <div class="header align">Menu & List items</div>
+
+    <div class="menu-align">
+
+      <div class="format-menu">
+
+        <div class="format-menu-color">
+          <div class="form-menu">
+            <div class="formating">Pentagon
+              <i class="las la-carrot"></i>
+            </div>
+
+            <div class="formating">Hexagon
+              <i class="las la-baby-carriage"></i>
+            </div>
+
+            <div class="formating">Triangle
+              <i class="las la-dolly-flatbed"></i>
+            </div>
+
+            <div class="formating">Custom shapes
+              <i class="las la-chevron-right"></i>
+            </div>
+          </div>
+
+          <div class="form-menu">
+
+            <div class="formating">Paragraph Styles
+              <i class="las la-chevron-right"></i>
+            </div>
+
+            <div class="formating">Align
+              <i class="las la-chevron-right"></i>
+            </div>
+            <div>Line spacing</div>
+          </div>
+
+
+          <div class="clear-format">Clear formatting
+            <i class="las la-times"></i>
+          </div>
+        </div>
+
+
+        <div class="format-menu-color white">
+
+          <div class="form-menu">
+            <div class="formating">Pentagon
+              <i class="las la-carrot"></i>
+            </div>
+
+            <div class="formating">Hexagon
+              <i class="las la-baby-carriage"></i>
+            </div>
+
+            <div class="formating">Triangle
+              <i class="las la-dolly-flatbed"></i>
+            </div>
+
+            <div class="formating gray">Custom shapes
+              <i class="las la-chevron-right"></i>
+            </div>
+          </div>
+
+          <div class="form-menu">
+
+            <div class="formating gray">Paragraph Styles
+              <i class="las la-chevron-right"></i>
+            </div>
+
+            <div class="formating gray">Align
+              <i class="las la-chevron-right"></i>
+            </div>
+            <div>Line spacing</div>
+          </div>
+
+
+          <div class="clear-format red">Clear formatting
+            <i class="las la-times"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="single-option">
+
+        <div class="line-box">Single line item
+          <i class="las la-info-circle"></i>
+        </div>
+
+        <div class="line-box clock">
+          <img src="/image/clock.png" alt="">
+          Single line item
+          <i class="las la-info-circle"></i>
+        </div>
+
+        <div class="line-box download">
+          <i class="las la-cog"></i>
+          Autodownload
+          <div class="slide-bar-align">
+            <div class="slide-bar">
+              <div class="circle-bar"></div>
+            </div>
+          </div>
+        </div>
+        <div class="line-box download">
+          <div class="line-align">When device is locked
+            <div class="line-info">Show the notification content</div>
+          </div>
+          <div class="slide-bar-align">
+            <div class="slide-bar">
+              <div class="circle-bar"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="line-box download">
+
+          <div class="line-align">
+            <div class="title-line">Optional selection title</div>
+            When device is locked
+            <div class="line-info">Show the notification content</div>
+          </div>
+          <div class="slide-bar-align">
+            <div class="slide-bar">
+              <div class="circle-bar"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="multiple-option">
+
+        <div class="line-box">
+          <div class="line-align">Double line item
+            <div class="line-info">Secondary text</div>
+          </div>
+          <i class="las la-info-circle"></i>
+        </div>
+
+        <div class="line-box">
+
+          <div class="line-align">
+            <div class="three-line">Three-line item
+              <span>13 hr</span>
+            </div>
+
+            <div class="line-info">
+              <div class="three-line">Lists present content in a way that makes
+                it easy to identify a specific item
+                <i class="las la-ellipsis-v"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="line-box clock">
+          <i class="las la-file file"></i>
+          <div class="line-align">Double line item
+            <div class="line-info">Secondary text</div>
+          </div>
+          <i class="las la-info-circle"></i>
+        </div>
+
+
+        <div class="line-box">
+          <i class="las la-user-circle user-circle"></i>
+          <div class="line-align">
+            <div class="three-line">Three-line item
+              <span>13 hr</span>
+            </div>
+
+            <div class="line-info">
+              <div class="three-line">Lists present content in a way that makes
+                it easy to identify a specific item
+                <i class="las la-ellipsis-v"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+
+</html>
